@@ -12,7 +12,9 @@ const firebaseConfig = {
   projectId: "finance-tracker-app-1128c",
   storageBucket: "finance-tracker-app-1128c.appspot.com",
   messagingSenderId: "90641179227",
+
   appId: "1:90641179227:web:3d4a0e6af98ed3bce7d57e",
+  
 };
 
 // Initialize Firebase
