@@ -186,7 +186,7 @@ const SignupSignin = () => {
         <div className="signup-wrapper">
           <h2 className="title">
             Sign Up on{" "}
-            <span style={{ color: "var(--primary-purple)" }}>Financely</span>
+            <span style={{ color: "var(--primary-purple)" }}>Ethio Finance</span>
           </h2>
           <InputComponent
             type={"text"}
