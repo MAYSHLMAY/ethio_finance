@@ -145,6 +145,7 @@ const SignupSignin = () => {
         <div className="signup-wrapper">
           <h2 className="title">
             Login up on{" "}
+            
             <span style={{ color: "var(--primary-purple)" }}>Ethio Finance</span>
           </h2>
           <InputComponent
