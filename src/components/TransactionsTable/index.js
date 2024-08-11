@@ -57,6 +57,7 @@ const TransactionsTable = ({
       return new Date(a.date) - new Date(b.date);
     } else if (sortKey === "amount") {
       return a.amount - b.amount;
+      
     } else {
       return 0;
     }
