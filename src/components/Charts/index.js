@@ -18,6 +18,7 @@ const ChartComponent = ({ transactions }) => {
         width: 2,
       },
       colors: ["var(--primary-purple)"],
+      
     },
     series: [
       {
