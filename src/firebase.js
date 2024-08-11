@@ -2,17 +2,19 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore, doc, setDoc } from "firebase/firestore";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration from environment variables
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCFRbhk5YVNBCAxhTiILOJC3uMBc9MKfyU",
-  authDomain: "blogg-37437.firebaseapp.com",
-  projectId: "blogg-37437",
-  storageBucket: "blogg-37437.appspot.com",
-  messagingSenderId: "830965737605",
-  appId: "1:830965737605:web:859c1e6877b45b2c64a1ec",
-  measurementId: "G-8GEMXYBWRP"
+  apiKey: "AIzaSyCeJntn40p7yvp1d77raiMW3S_1Mw1dN7Y",
+  authDomain: "finance-tracker-app-1128c.firebaseapp.com",
+  projectId: "finance-tracker-app-1128c",
+  storageBucket: "finance-tracker-app-1128c.appspot.com",
+  messagingSenderId: "90641179227",
+  appId: "1:90641179227:web:3d4a0e6af98ed3bce7d57e",
 };
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
