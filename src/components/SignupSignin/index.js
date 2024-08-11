@@ -166,12 +166,6 @@ const SignupSignin = () => {
             purple={true}
           />
           <p className="or-name">or</p>
-          <Button
-            text={loading ? "Loading..." : "Login with Google"}
-            onClick={googleAuth}
-            purple={false}
-            icon={<FcGoogle className="FcGoogle" />}
-          ></Button>
           <p className="have-an-account">
             Don't have an account?{" "}
             <span
@@ -218,13 +212,6 @@ const SignupSignin = () => {
             onClick={signUnHandle}
             purple={true}
           />
-          <p className="or-name">or</p>
-          <Button
-            text={loading ? "Loading..." : "Sign up with Google"}
-            purple={false}
-            icon={<FcGoogle className="FcGoogle" />}
-            onClick={googleAuth}
-          ></Button>
           <p className="have-an-account">
             Already have an account?{" "}
             <span
