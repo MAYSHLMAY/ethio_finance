@@ -25,7 +25,7 @@ Follow these steps to get Ethio Finance running on your local machine:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/ethio-finance.git
+   git clone https://github.com/MAYSHLMAY/ethio-finance.git
    cd ethio-finance
    
 ## Install Dependencies
